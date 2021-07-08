@@ -1,8 +1,5 @@
-using ORUS.Presentacion;
+using ORUS.Presentation;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ORUS
@@ -18,7 +15,7 @@ namespace ORUS
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuPrincipal());
+            Application.Run(new MainMenu());
         }
     }
 }

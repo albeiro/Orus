@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Projects\\learn\\c#\\orus\\ORUS\\ORUS.csproj": {}
+    "J:\\Projects\\learn\\Orus\\ORUS.csproj": {}
   },
   "projects": {
-    "J:\\Projects\\learn\\c#\\orus\\ORUS\\ORUS.csproj": {
+    "J:\\Projects\\learn\\Orus\\ORUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Projects\\learn\\c#\\orus\\ORUS\\ORUS.csproj",
+        "projectUniqueName": "J:\\Projects\\learn\\Orus\\ORUS.csproj",
         "projectName": "ORUS",
-        "projectPath": "J:\\Projects\\learn\\c#\\orus\\ORUS\\ORUS.csproj",
+        "projectPath": "J:\\Projects\\learn\\Orus\\ORUS.csproj",
         "packagesPath": "C:\\Users\\J\\.nuget\\packages\\",
-        "outputPath": "J:\\Projects\\learn\\c#\\orus\\ORUS\\obj\\",
+        "outputPath": "J:\\Projects\\learn\\Orus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\J\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

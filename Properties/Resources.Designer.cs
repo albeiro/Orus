@@ -73,6 +73,26 @@ namespace ORUS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hacia_adelante {
+            get {
+                object obj = ResourceManager.GetObject("hacia-adelante", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hacia_atras {
+            get {
+                object obj = ResourceManager.GetObject("hacia-atras", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MonoOrus {
             get {
                 object obj = ResourceManager.GetObject("MonoOrus", resourceCulture);
@@ -86,6 +106,26 @@ namespace ORUS.Properties {
         internal static System.Drawing.Bitmap naranja {
             get {
                 object obj = ResourceManager.GetObject("naranja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_add_circle_outline_white_36dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_add_circle_outline_white_36dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_search_white_36dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_search_white_36dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
